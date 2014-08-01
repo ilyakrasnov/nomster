@@ -28,8 +28,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-# Add kaminari gem for pagination
+# Kaminari gem for pagination
 gem 'kaminari'
+
+# Simple form
+gem 'simple_form'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
