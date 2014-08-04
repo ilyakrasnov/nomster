@@ -37,6 +37,12 @@ gem 'simple_form'
 # User authentication
 gem 'devise', '>= 3.2.4'
 
+#Geocoder gem to convert addresses to lat and lng
+gem 'geocoder'
+
+# ENV configurator
+gem 'figaro'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
