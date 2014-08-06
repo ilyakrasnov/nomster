@@ -43,6 +43,7 @@ gem 'geocoder'
 # ENV configurator
 gem 'figaro'
 
+
 # Photo uploader
 gem 'carrierwave'
 

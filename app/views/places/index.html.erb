@@ -2,13 +2,19 @@
 
 <% @places.each do |place| %>
 	<div class="booyah-box col-xs-10 col-xs-offset-1">
+
+		<% if place.photos.present? %>		
+			<div class="pull-left thumbnail">
+					<% place.photos.each do |photo| %>
+						<%= image_tag photo.picture %>
+						<% break %>
+					<% end %>
+				</div>
+		<% end %>
 		<h1><%= link_to place.name, place_path(place) %></h1>
 
-			<% place.photos.each do |photo| %>
-				<%= image_tag photo.picture %>
-				<% break %>
-			<% end %>
-
+			
+			
 			<i><%= place.address %></i><br />
 			<p><%= place.description %></p><br />
 
