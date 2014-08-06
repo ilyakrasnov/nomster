@@ -5,7 +5,8 @@
 		<h1><%= link_to place.name, place_path(place) %></h1>
 
 			<% place.photos.each do |photo| %>
-				<b><%= image_tag photo.picture %></b> -
+				<%= image_tag photo.picture %>
+				<% break %>
 			<% end %>
 
 			<i><%= place.address %></i><br />
