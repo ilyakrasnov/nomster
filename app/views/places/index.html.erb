@@ -40,10 +40,9 @@
 
 		<% if place.photos.present? %>		
 			<div class="pull-left thumbnail">
-					<% place.photos.each do |photo| %>
-						<%= image_tag photo.picture %>
-						<% break %>
-					<% end %>
+					
+				<%= image_tag place.photos.first.picture %>
+					
 				</div>
 		<% end %>
 
