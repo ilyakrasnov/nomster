@@ -52,7 +52,7 @@ test:
   username: postgres
   password: password
   host: localhost
-  password:
+  password: password
 
 production:
   adapter: postgresql
