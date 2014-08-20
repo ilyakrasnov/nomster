@@ -41,10 +41,14 @@
 	</div>
 </div>
 
+<% if @place.comments.present? %>
 <div class="booyah-box col-xs-10 col-xs-offset-1">
-	<h1 class="pull-left">Average rating</h1>
+
+	<h1 class="pull-left">Average rating: <%= @place.comments.average("rating")%></h1>
+
 </div>
 		
+	<%end%>
 
 
 <div class="col-xs-10 col-xs-offset-1">
