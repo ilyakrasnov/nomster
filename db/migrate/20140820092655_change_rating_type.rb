@@ -1,6 +1,6 @@
 class ChangeRatingType < ActiveRecord::Migration
   def up
-    change_column :comments, :rating, :integer
+    change_column :comments, :rating, 'integer USING CAST(rating AS integer)'
   end
 
   def down
