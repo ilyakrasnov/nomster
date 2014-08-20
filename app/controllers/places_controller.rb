@@ -20,9 +20,19 @@ class PlacesController < ApplicationController
 
 	def show
 		@place = Place.find(params[:id])
+		raise ActiveRecord::RecordNotFound if @place.nil?
+
 		@comment = Comment.new
 		@photo = Photo.new
 	end
+
+	rescue_from ActiveRecord::RecordNotFound do
+			render file: 'public/404', status: 404, formats: [:html]
+	end
+
+	# def not_found
+ #  	raise ActionController::RoutingError.new('Not Found')
+	# end
 
 	def edit
 		@place = Place.find(params[:id])

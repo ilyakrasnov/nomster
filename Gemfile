@@ -55,11 +55,18 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Test factory
+
 group :test do
+	# Test factory
 	gem "factory_girl_rails", "~> 4.0"
 end
 
+group :development, :test do
+	# Colorize test output
+	# gem 'redgreen'
+	gem 'mynyml-redgreen'
+	gem 'test-unit', '1.2.3'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
