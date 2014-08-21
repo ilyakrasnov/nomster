@@ -23,10 +23,12 @@ class PlacesControllerTest < ActionController::TestCase
   end
 
   test "should create place" do
+	  place = FactoryGirl.create(:place)
+	  
 	  assert_difference('Place.count') do
-	    post :create, post: {title: 'Some title'}
+	    post :create, place:
 	  end
 	 
-	  assert_redirected_to post_path(assigns(:post))
+	  assert_redirected_to root_path
 	end  
 end
