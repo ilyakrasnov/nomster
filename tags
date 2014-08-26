@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActionController	test/test_helper.rb	/^class ActionController::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddPictureToPhotos	db/migrate/20140806083912_add_picture_to_photos.rb	/^class AddPictureToPhotos < ActiveRecord::Migration$/;"	c
+AlterPlacesAddLatAndLng	db/migrate/20140804104537_alter_places_add_lat_and_lng.rb	/^class AlterPlacesAddLatAndLng < ActiveRecord::Migration$/;"	c
+AlterPlacesAddUserIdColumn	db/migrate/20140803104911_alter_places_add_user_id_column.rb	/^class AlterPlacesAddUserIdColumn < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Nomster
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ChangeRatingType	db/migrate/20140820092655_change_rating_type.rb	/^class ChangeRatingType < ActiveRecord::Migration$/;"	c
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentTest	test/models/comment_test.rb	/^class CommentTest < ActiveSupport::TestCase$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsControllerTest	test/controllers/comments_controller_test.rb	/^class CommentsControllerTest < ActionController::TestCase$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+CommentsHelperTest	test/helpers/comments_helper_test.rb	/^class CommentsHelperTest < ActionView::TestCase$/;"	c
+CreateComments	db/migrate/20140804123938_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePhotos	db/migrate/20140806074909_create_photos.rb	/^class CreatePhotos < ActiveRecord::Migration$/;"	c
+CreatePlaces	db/migrate/20140801083011_create_places.rb	/^class CreatePlaces < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20140803102657_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+Nomster	config/application.rb	/^module Nomster$/;"	m
+NotificationMailer	app/mailers/notification_mailer.rb	/^class NotificationMailer < ActionMailer::Base$/;"	c
+NotificationMailerTest	test/mailers/notification_mailer_test.rb	/^class NotificationMailerTest < ActionMailer::TestCase$/;"	c
+Photo	app/models/photo.rb	/^class Photo < ActiveRecord::Base$/;"	c
+PhotoTest	test/models/photo_test.rb	/^class PhotoTest < ActiveSupport::TestCase$/;"	c
+PhotosController	app/controllers/photos_controller.rb	/^class PhotosController < ApplicationController$/;"	c
+PhotosControllerTest	test/controllers/photos_controller_test.rb	/^class PhotosControllerTest < ActionController::TestCase$/;"	c
+PhotosHelper	app/helpers/photos_helper.rb	/^module PhotosHelper$/;"	m
+PhotosHelperTest	test/helpers/photos_helper_test.rb	/^class PhotosHelperTest < ActionView::TestCase$/;"	c
+PictureUploader	app/uploaders/picture_uploader.rb	/^class PictureUploader < CarrierWave::Uploader::Base$/;"	c
+Place	app/models/place.rb	/^class Place < ActiveRecord::Base$/;"	c
+PlaceTest	test/models/place_test.rb	/^class PlaceTest < ActiveSupport::TestCase$/;"	c
+PlacesController	app/controllers/places_controller.rb	/^class PlacesController < ApplicationController$/;"	c
+PlacesControllerTest	test/controllers/places_controller_test.rb	/^class PlacesControllerTest < ActionController::TestCase$/;"	c
+PlacesHelper	app/helpers/places_helper.rb	/^module PlacesHelper$/;"	m
+PlacesHelperTest	test/helpers/places_helper_test.rb	/^class PlacesHelperTest < ActionView::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelperTest	test/helpers/users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+average_rating	app/models/place.rb	/^	def average_rating$/;"	f	class:Place
+change	db/migrate/20140801083011_create_places.rb	/^  def change$/;"	f	class:CreatePlaces
+change	db/migrate/20140803102657_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20140803104911_alter_places_add_user_id_column.rb	/^  def change$/;"	f	class:AlterPlacesAddUserIdColumn
+change	db/migrate/20140804104537_alter_places_add_lat_and_lng.rb	/^  def change$/;"	f	class:AlterPlacesAddLatAndLng
+change	db/migrate/20140804123938_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+change	db/migrate/20140806074909_create_photos.rb	/^  def change$/;"	f	class:CreatePhotos
+change	db/migrate/20140806083912_add_picture_to_photos.rb	/^  def change$/;"	f	class:AddPictureToPhotos
+comment_added	app/mailers/notification_mailer.rb	/^  def comment_added(comment)$/;"	f	class:NotificationMailer
+comment_params	app/controllers/comments_controller.rb	/^	def comment_params$/;"	f	class:CommentsController
+create	app/controllers/comments_controller.rb	/^	def create$/;"	f	class:CommentsController
+create	app/controllers/photos_controller.rb	/^	def create$/;"	f	class:PhotosController
+create	app/controllers/places_controller.rb	/^	def create$/;"	f	class:PlacesController
+create	app/helpers/comments_helper.rb	/^	def create$/;"	f	class:CommentsHelper
+destroy	app/controllers/places_controller.rb	/^	def destroy$/;"	f	class:PlacesController
+down	db/migrate/20140820092655_change_rating_type.rb	/^  def down$/;"	f	class:ChangeRatingType
+edit	app/controllers/places_controller.rb	/^	def edit$/;"	f	class:PlacesController
+humanized_rating	app/models/comment.rb	/^	def humanized_rating$/;"	f	class:Comment
+index	app/controllers/places_controller.rb	/^	def index$/;"	f	class:PlacesController
+new	app/controllers/places_controller.rb	/^	def new$/;"	f	class:PlacesController
+photo_params	app/controllers/photos_controller.rb	/^	def photo_params$/;"	f	class:PhotosController
+place_params	app/controllers/places_controller.rb	/^	def place_params$/;"	f	class:PlacesController
+send_comment_email	app/models/comment.rb	/^	def send_comment_email$/;"	f	class:Comment
+show	app/controllers/places_controller.rb	/^	def show$/;"	f	class:PlacesController
+show	app/controllers/users_controller.rb	/^	def show$/;"	f	class:UsersController
+store_dir	app/uploaders/picture_uploader.rb	/^  def store_dir$/;"	f	class:PictureUploader
+to_s	app/models/place.rb	/^	def to_s$/;"	f	class:Place
+up	db/migrate/20140820092655_change_rating_type.rb	/^  def up$/;"	f	class:ChangeRatingType
+update	app/controllers/places_controller.rb	/^	def update$/;"	f	class:PlacesController

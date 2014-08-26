@@ -30,8 +30,7 @@ class PlacesController < ApplicationController
 			render file: 'public/404', status: 404, formats: [:html]
 	end
 
-	# def not_found
- #  	raise ActionController::RoutingError.new('Not Found')
+	# def not_found # raise ActionController::RoutingError.new('Not Found')
 	# end
 
 	def edit
